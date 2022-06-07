@@ -20,7 +20,7 @@ class About(Gtk.Dialog):
         lbl_projectInfo.set_text("Este proyecto es en básicas palabras un generador de escala de notas con un evaluador automático que funciona de acuerdo a la escala de notas generada.")
         lbl_projectInfo.set_line_wrap(True)
 
-        lbl_projectAuthor = Gtk.Label(label = "Creado por Angel Guerrero")
+        lbl_projectAuthor = Gtk.Label(label = "Creado por Angel Guerrero y Yostin Sepúlveda")
 
         btn_authorPage = Gtk.Button()
         btn_authorPage.connect("clicked", self.openGit)

@@ -72,7 +72,7 @@ Los elementos que se logran ver son:
 
 ## Metodología
 
-### Desarrollado por **Angel Guerrero**
+### Desarrollado por **Angel Guerrero** y **Yostin Sepúlveda**
 
 #### Gracias especiales a:
 **[Ivo Wetzel](https://stackoverflow.com/users/170224/ivo-wetzel)** Por crear el archivo [numbify.py](https://github.com/AngelTheG/Proyecto-3/blob/master/numbify.py) y publicarlo en la página de ayuda de [stack overflow](https://stackoverflow.com/questions/2726839/creating-a-pygtk-text-field-that-only-accepts-number).

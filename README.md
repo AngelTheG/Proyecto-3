@@ -19,13 +19,13 @@
 ### Ejecución
 Para ejecutar el proyecto se debe abrir el archivo [core.py](https://github.com/AngelTheG/Proyecto-3/blob/master/core.py) desde la terminal siguiendo el ejemplo:
 
-[ ===== IMAGEN ===== ]
+<a href="https://imgur.com/DgslPZI"><img src="https://i.imgur.com/DgslPZI.png" title="source: imgur.com" /></a>
 
 
 ## Primer Lanzamiento
 Apenas se ejecute el proyecto se abrirá la ventana núcleo del proyecto.
 
-[ ===== IMAGEN ===== ]
+<a href="https://imgur.com/2vi5l4r"><img src="https://i.imgur.com/2vi5l4r.png" title="source: imgur.com" /></a>
 
 Los elementos que se logran ver son:
   
@@ -71,6 +71,16 @@ Los elementos que se logran ver son:
   * Aquí se mostrarán los datos cargados y generados por el archivo.
 
 ## Metodología
+El proyecto consta de 4 archivos de ejecución excluyendo archivos de prueba e imágenes.
+Principalmente está el **core.py** el cual como indica su nombre es el núcleo del proyecto, este hereda las clases Numbify, NoGenerated y About. Por útimo consta de los siguientes métodos:
+
+* **openFile**: Accionado por el botón Abrir, el método crea un dialogo de selección de archivo limitado a archivos .csv, una vez abierto procesará la información del archivo si es compatible y la cargará en la tabla (TreeView) en la parte inferior derecha. Es importante destacar que esto solo sucederá si se generó una tabla previamente ya que esto gatilla el proceso de evaluación automática, si se da el caso de accionar el botón sin antes haber generado una escala, se desplegará un dialogo en el que se indica la necesidad de crear una tabla previamente. Puede ocurrir que la tabla no cubra la totalidad de puntos del archivo, por lo que la calificación asignada en ese caso será "Los puntos exceden la escala generada".
+
+* **aboutShow**: Despliega una ventana About llamando a la clase antes importada.
+
+* **generate**: Calcula y muestra una tabla generada según los datos indicados.
+
+* **saveFile**: Guarda los datos desplegados en la tabla, tras cargar un archivo, dentro de un archivo pdf.
 
 ### Desarrollado por **Angel Guerrero** y **Yostin Sepúlveda**
 
